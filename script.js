@@ -10,7 +10,8 @@ const second = document.getElementById("second");
 const startBtn = document.getElementById("start");
 const resetBtn = document.getElementById("reset");
 
-let countNumber = 90;
+let countNumber = 180;
+
 minute.textContent = `${Math.floor(countNumber / 60)}分`;
 second.textContent = `${Math.floor(countNumber % 60)}秒`;
 
